@@ -13,6 +13,7 @@
 		1310C5AA1E8C6FD20045F070 /* Doit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1310C5A81E8C6FD20045F070 /* Doit.xcdatamodeld */; };
 		1310C5AC1E8C6FD20045F070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1310C5AB1E8C6FD20045F070 /* Assets.xcassets */; };
 		1310C5AF1E8C6FD20045F070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1310C5AD1E8C6FD20045F070 /* LaunchScreen.storyboard */; };
+		1310C5B71E8C783E0045F070 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1310C5B61E8C783E0045F070 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1310C5AB1E8C6FD20045F070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1310C5AE1E8C6FD20045F070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1310C5B01E8C6FD20045F070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1310C5B61E8C783E0045F070 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				1310C5A11E8C6FD20045F070 /* AppDelegate.swift */,
 				1310C5A31E8C6FD20045F070 /* ViewController.swift */,
+				1310C5B61E8C783E0045F070 /* Task.swift */,
 				1310C5A51E8C6FD20045F070 /* Main.storyboard */,
 				1310C5AB1E8C6FD20045F070 /* Assets.xcassets */,
 				1310C5AD1E8C6FD20045F070 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1310C5B71E8C783E0045F070 /* Task.swift in Sources */,
 				1310C5A41E8C6FD20045F070 /* ViewController.swift in Sources */,
 				1310C5A21E8C6FD20045F070 /* AppDelegate.swift in Sources */,
 				1310C5AA1E8C6FD20045F070 /* Doit.xcdatamodeld in Sources */,
